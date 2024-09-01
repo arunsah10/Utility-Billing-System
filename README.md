@@ -13,10 +13,10 @@ The project is built using the **MERN** stack:
 
 ## Features
 - **Admin Dashboard**: Allows administrators to manage users, employees, and bills.
-- **User Management**: Admins can add, edit, and delete users and employees.
-- **Bill Management**: Users can view and manage their bills for various utilities.
-- **Document Management**: Users can upload and manage relevant documents.
-- **Notices and Announcements**: Admins can post notices for users.
+- **Employee Dashboard**: Employees can view, add, and update users bills and set different documents and notices for user reference.
+- **Bill Management**: Users can view their bills, check for notices and docs.
+- **Document Management**: Employee can upload and manage relevant documents.
+- **Notices and Announcements**: Admins and Employee can post notices for users.
 - **Responsive Design**: The application is fully responsive and works seamlessly on all devices.
 
 ## Setup and Installation
