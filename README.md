@@ -57,7 +57,7 @@ Here's the updated section to include the database setup for the initial admin:
 
 To initialize the database with the first admin user, follow the steps below:
 
-1. **Add Admin Credentials**: Insert the following document into the `adminCredentials` collection in your MongoDB database:
+1. **Add Admin Credentials**: Insert the following document into the `admin credentials` collection in your MongoDB database:
    ```json
    {
      "_id": {
@@ -68,7 +68,7 @@ To initialize the database with the first admin user, follow the steps below:
    }
    ```
 
-2. **Add Admin Details**: Insert the following document into the `adminDetails` collection in your MongoDB database:
+2. **Add Admin Details**: Insert the following document into the `admin details` collection in your MongoDB database:
    ```json
    {
      "_id": {
