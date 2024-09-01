@@ -44,14 +44,17 @@ Create a `.env` file in both the `backend` and `frontend` directories.
 
 #### Backend `.env`:
 ```env
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
+MONGODB_URI =yours mongodb uri
+PORT = 5000
+FRONTEND_API_LINK = http://localhost:3000
 ```
 
 #### Frontend `.env`:
 ```env
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_APILINK = http://localhost:5000/api
+
+REACT_APP_MEDIA_LINK = http://localhost:5000/media
+
 ```
 
 ### 4. Run the Application Locally
