@@ -2,7 +2,7 @@
 # Utility-Billing-System
 
 ## Overview
-The **Utility-Billing-System** is a comprehensive solution designed to handle utility bills for electricity, water, gas, and taxes on a monthly basis. This system streamlines the billing process, offering both administrators and users an intuitive interface to manage and track their bills efficiently.
+The **Utility-Billing-System** is a comprehensive solution designed to handle utility bills for electricity, water, gas,taxes and other utilities. This system streamlines the billing process, offering both administrators and users an intuitive interface to manage and track their bills efficiently.
 
 ## Tech Stack
 The project is built using the **MERN** stack:
