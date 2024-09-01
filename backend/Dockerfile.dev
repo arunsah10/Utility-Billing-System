@@ -1,0 +1,11 @@
+FROM node:20-alpine
+
+WORKDIR /Backend
+
+COPY ./package*.json /Backend
+
+RUN npm install
+
+COPY .  /Backend
+
+CMD [ "npm","start" ]

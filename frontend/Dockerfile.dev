@@ -1,0 +1,11 @@
+FROM node:20-alpine
+
+WORKDIR /Frontend
+
+COPY ./package*.json /Frontend
+
+RUN npm install
+
+COPY .  /Frontend
+
+CMD [ "npm","start" ]
