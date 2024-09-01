@@ -11,14 +11,6 @@ The project is built using the **MERN** stack:
 - **React.js**: A JavaScript library for building user interfaces, used to create the frontend of the application.
 - **Node.js**: A JavaScript runtime built on Chrome's V8 engine, used to run the backend server and handle requests.
 
-## Features
-- **Admin Dashboard**: Allows administrators to manage users, employees, and bills.
-- **Employee Dashboard**: Employees can view, add, and update users bills and set different documents and notices for user reference.
-- **Bill Management**: Users can view their bills, check for notices and docs.
-- **Document Management**: Employee can upload and manage relevant documents.
-- **Notices and Announcements**: Admins and Employee can post notices for users.
-- **Responsive Design**: The application is fully responsive and works seamlessly on all devices.
-
 ## Setup and Installation
 
 ### 1. Clone the Repository
@@ -105,6 +97,12 @@ docker run -it -d --name backend2 -p 5000:5000 appbackend
 
 ## Application Screenshots
 
+- **Main Page**: <br>
+  <img src="Main Page.png" alt="Main Page" width="600" height="400" />
+
+- **Admin Dashboard**: <br>
+  <img src="Admin_Dashboard.png" alt="Admin Dashboard" width="600" height="400" />
+
 - **Add Admin Page**: <br>
   <img src="Add_Admin.png" alt="Add Admin Page" width="600" height="400" />
 
@@ -117,11 +115,6 @@ docker run -it -d --name backend2 -p 5000:5000 appbackend
 - **Add User Page**: <br>
   <img src="Add_User.png" alt="Add User Page" width="600" height="400" />
 
-- **Admin Dashboard**: <br>
-  <img src="Admin_Dashboard.png" alt="Admin Dashboard" width="600" height="400" />
-
-- **Main Page**: <br>
-  <img src="Main Page.png" alt="Main Page" width="600" height="400" />
 
 - **Notices Page**: <br>
   <img src="Notices.png" alt="Notices Page" width="600" height="400" />
@@ -130,13 +123,23 @@ docker run -it -d --name backend2 -p 5000:5000 appbackend
   <img src="Relevant_Documents.png" alt="Relevant Documents Page" width="600" height="400" />
 
 - **User Categories Page**: <br>
-  <img src="User_Categories.png" alt="User Categories Page" width="600" height="400" />
+  <img src="User Categories.png" alt="User Categories Page" width="600" height="400" />
 
 - **User Bills Page**: <br>
   <img src="User_Bills.png" alt="User Bills Page" width="600" height="400" />
 
 - **Utilities Overview**: <br>
   <img src="Utilities.png" alt="Utilities Overview" width="600" height="400" />
+
+
+## Features
+- **Admin Dashboard**: Allows administrators to manage users, employees, and bills.
+- **Employee Dashboard**: Employees can view, add, and update users bills and set different documents and notices for user reference.
+- **Bill Management**: Users can view their bills, check for notices and docs.
+- **Document Management**: Employee can upload and manage relevant documents.
+- **Notices and Announcements**: Admins and Employee can post notices for users.
+- **Responsive Design**: The application is fully responsive and works seamlessly on all devices.
+
 
 ## Author
 
