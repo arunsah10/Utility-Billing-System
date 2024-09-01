@@ -49,7 +49,49 @@ REACT_APP_MEDIA_LINK = http://localhost:5000/media
 
 ```
 
-### 4. Run the Application Locally
+Here's the updated section to include the database setup for the initial admin:
+
+---
+
+### 4. Setup the Database with First Manual Admin
+
+To initialize the database with the first admin user, follow the steps below:
+
+1. **Add Admin Credentials**: Insert the following document into the `adminCredentials` collection in your MongoDB database:
+   ```json
+   {
+     "_id": {
+       "$oid": "the id will be generated"
+     },
+     "loginid": 123123,
+     "password": 112233
+   }
+   ```
+
+2. **Add Admin Details**: Insert the following document into the `adminDetails` collection in your MongoDB database:
+   ```json
+   {
+     "_id": {
+       "$oid": "the id will be generated"
+     },
+     "employeeId": 123123,
+     "firstName": "Arun",
+     "middleName": "Kumar",
+     "lastName": "Sah",
+     "email": "test@admin.com",
+     "phoneNumber": 256723663,
+     "gender": "Male",
+     "profile": "profile.jpg"
+   }
+   ```
+
+Your initial admin login details are:
+- **Login ID**: `123123`
+- **Password**: `112233`
+
+Make sure to secure these credentials appropriately after the setup.
+
+### 5. Run the Application Locally
 ```bash
 # Start the backend server
 cd backend
