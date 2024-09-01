@@ -23,7 +23,7 @@ The project is built using the **MERN** stack:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/Utility-Billing-System.git
+git clone https://github.com/arunsah10/Utility-Billing-System.git
 cd Utility-Billing-System
 ```
 
